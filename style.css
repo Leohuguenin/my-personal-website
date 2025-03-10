@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 10px;
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .intro {
+    display:inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+  }
+  
+  .intro-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .intro-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  
+  .intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; 
+  }
+  
+
+  .about-header {
+    margin-bottom: 20px;
+  }
+  
+  .about-header h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+
+  .about {
+    margin-bottom: 40px;
+    display: flex;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+
+  .skills {
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .skills-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skill-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .skill-column:last-child {
+    margin-right: 0;
+  }
+  
+  .skill-column h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .skill-column ul {
+    list-style: none;
+  }
+  
+.experience {
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .experience-content {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+  }
+  
+  .experience-item {
+    background: #eaeaea;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .experience-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
