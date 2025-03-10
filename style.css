@@ -226,3 +226,21 @@ h2 {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+.projects {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.projects-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+.projects-content p strong {
+  color: #228B22;
+}
